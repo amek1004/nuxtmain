@@ -22,13 +22,13 @@
 
       <!-- <v-row align="center" justify="space-around" class="mt-6"> -->
       <v-row dense>
-        <v-col>
+        <v-col cols="auto" xs="12">
           <v-btn small :disabled="!valid" color="success" @click="validate">SUBMIT</v-btn>
         </v-col>
-        <v-col class="ml-n10">
-          <v-btn class="ml-1" small color="error" @click="reset">Reset Form</v-btn>
+        <v-col cols="auto" xs="12">
+          <v-btn small color="error" @click="reset">Reset Form</v-btn>
         </v-col>
-        <v-col>
+        <v-col cols="auto" xs="12" md="4" class="ml-md-6 ml-sm-6">
           <v-btn small color="primary" nuxt-link to="/">RETURN TO LOGIN</v-btn>
         </v-col>
       </v-row>
